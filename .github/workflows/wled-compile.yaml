@@ -1,3 +1,0 @@
-[env:custom_build]
-extends = env:esp32dev
-build_flags = ${env:esp32dev.build_flags} -D USERMOD_ANIMATED_STAIRCASE
